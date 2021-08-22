@@ -1,0 +1,307 @@
+html{
+  background-color: rgba(192, 192, 192, 0.089);
+}
+body{
+  margin-left: 180px;
+  margin-right: 180px;
+  border: 1px solid rgb(0, 32, 96);
+  box-shadow: 1px 1px 20px silver;
+  background-color: #fff;
+}
+main{
+  display: flex;
+}
+
+
+
+#right{                                                           /*PARTIE RIGHT*/
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#nom{                                  /*nom*/
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  color: #fff;
+  background-color: orange;
+  padding: 10px;
+  box-shadow: 1px 1px 7px #000;
+  font-family: Century ;
+  text-shadow: 2px 1px 7px black;
+}
+
+#profil{                                 /*profil*/
+  border: 5px solid orange;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  box-shadow: 1px 1px 7px #000;
+}
+.title{
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+#exp{                                   /*experiecnce*/
+  border: 5px double orange;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 30px;
+  box-shadow: 1px 1px 7px #000;
+}
+#exp_main{
+  display: flex;
+  margin-bottom: 20px;
+}
+#exp_left{
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid silver;
+  margin-right: 30px;
+  padding-right: 10px;
+}
+#job2_left{
+  padding-top: 20px;
+}
+#job3_left{
+  padding-top: 33px;
+  
+}
+#job4_left{
+  padding-top: 55px;
+  margin-bottom: 10px;
+}
+#job5_left{
+  position: relative;
+  top: 40px;
+}
+.job_date{
+  display: flex;
+  justify-content: flex-end;
+}
+#job2_right, #job3_right, #job4_right, #job5_right{
+  border-top: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 23px;
+}
+#job1_right{
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+#comp{                                  /*competance*/
+  border: 5px solid orange;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 1px 1px 7px #000;
+}
+
+ 
+#left{                                                         /* PARTIE LEFT*/
+  background-color: orange;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 4px silver;
+  margin-bottom: 1px;
+}
+
+#photo{
+  width: 100%;
+  height: 350px;
+  background-image: url("pp1.jpg");
+  background-size: 100%;
+}
+
+.lien{
+  font-size: none;
+  color: black;
+}
+.text, .skill-name, .skill-name_lang{
+  font-family: Century Gothic;
+  text-shadow: 0px 0px 1px rgb(22, 32, 96);
+}
+
+#edu, #lang{
+  margin-top: 15%;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#lang{
+  margin-bottom: 15%;
+}
+#design{
+  padding-top: 10px;
+}
+#cont{
+  margin-top: 15%;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.ecole{
+  font-size: 16px;
+}
+img{
+  position: relative;
+  top: 4px;
+}
+.lien{
+  text-decoration: none;
+}
+#icon_mail{
+  padding-right: 2px;
+}
+#icon_position{
+  padding-right: 7px;
+  padding-left: 3px;
+}
+#icon_phone{
+  padding-right: 7px;
+  padding-left: 3px;
+}
+.contact_1:hover{
+  box-shadow: 1px 1px 4px black;
+}
+.contact_2:hover{
+  box-shadow: 1px 1px 4px black;
+} 
+.contact_3:hover{
+  box-shadow: 1px 1px 4px black;
+}
+.contact_1{
+  font-size: 15px;
+  width: 81%;
+}
+.contact_2{
+  font-size: 15px;
+  width: 95%;
+}
+.contact_3{
+  font-size: 15px;
+  width: 85%;
+}
+.title_left{
+  max-width: 70%;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom:10px;
+}
+
+.part{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  height: 20%;
+}
+.part_1{
+  border: 1px solid red;
+}
+.ecole{
+  font-weight: normal;
+  position: relative;
+  bottom: 40px;
+}
+
+
+
+
+#space_blanc{                                /*design*/
+  height: 40px;
+  background-color: #fff;
+  position: relative;
+  top: 50px;
+}
+#space_orange{
+  background-color: rgb(250, 164, 3);
+  height:15px;
+}
+
+
+
+
+
+#level{                                     /* barre de level*/
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills{
+  width: 100%;
+  max-width: 300px;
+  padding: 20px 0 20px 200px;
+}
+
+.skill-name{
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  text-indent: -65%;
+  position: relative;
+  top: 20px;
+}
+
+.skill-bar{
+  height: 12px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid orange;
+}
+
+.skill-per{
+  height: 12px;
+  background: silver;
+  border-radius: 3px;
+  animation: fillBars 2.5s 1;
+}
+
+#level_1{
+  margin-top: 20px;
+}
+
+.skills_lang{
+  width: 90%;
+  max-width: 300px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.skill-name_lang{
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  margin: 7px 0;
+}
+
+.skill-bar_lang{
+  height: 10px;
+  background: orange;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+
+.skill-per_lang{
+  height: 10px;
+  background: silver;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+
+  }
+  @keyframes fillBars{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
